@@ -19,6 +19,20 @@
       "matches": ["https://old-stdportal.tdtu.edu.vn/*"],
       "js": ["main.js"]
     }
-  ]
+  ],
+
+  "data_collection_permissions": {
+    "collects_personal_data": false,
+    "collects_location": false,
+    "collects_health_data": false,
+    "collects_financial_data": false,
+    "collects_authentication_info": false,
+    "collects_messages": false,
+    "collects_contacts": false,
+    "collects_browsing_history": false,
+    "collects_search_terms": false,
+    "collects_user_activity": false,
+    "collects_website_content": false
+  }
 }
 
