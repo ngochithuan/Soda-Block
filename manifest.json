@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Soda Block",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Block pop-up from https://old-stdportal.tdtu.edu.vn",
 
   "browser_specific_settings": {
