@@ -1,18 +1,24 @@
 {
-  "description": "Block pop-up from https://old-stdportal.tdtu.edu.vn",
   "manifest_version": 3,
   "name": "Soda Block",
   "version": "1.0",
-  "homepage_url": "git@github.com:ngochithuan/Soda-Block.git",
+  "description": "Block pop-up from https://old-stdportal.tdtu.edu.vn",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "soda-block@ngochithuan"
+    }
+  },
+
   "icons": {
     "48": "icons/border-48.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://old-stdportal.tdtu.edu.vn/*"],
+      "matches": ["https://old-stdportal.tdtu.edu.vn/*"],
       "js": ["main.js"]
     }
   ]
-
 }
+
