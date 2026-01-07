@@ -1,9 +1,9 @@
 {
-  "description": "Block pop up from https://old-stdportal.tdtu.edu.vn",
+  "description": "Block pop-up from https://old-stdportal.tdtu.edu.vn",
   "manifest_version": 3,
   "name": "Soda Block",
   "version": "1.0",
-  "homepage_url": "https://github.com/ngochithuan",
+  "homepage_url": "git@github.com:ngochithuan/Soda-Block.git",
   "icons": {
     "48": "icons/border-48.png"
   },
